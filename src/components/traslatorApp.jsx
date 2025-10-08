@@ -85,7 +85,7 @@ function TranslatorApp({ onClose }) {
       <button className="absolute top-4 right-4">
         <IconX className="text-xl text-gray-300" onClick={onClose} />
       </button>
-      <div className="w-full min-h-20 flex justify-center items-center px-4 bg-gradient-to-r from-[#b6f492] to-[#338b93] text-gray-700 rounded-lg">
+      <div className="w-full min-h-20 flex justify-center items-center px-4 bg-gradient-to-r from-[#b6f492] to-[#2d4bf3] text-gray-700 rounded-lg">
         <div className="language" onClick={() => handleLanguageClick("from")}>
           {languages[selectedLanguageFrom] || "English"}
         </div>

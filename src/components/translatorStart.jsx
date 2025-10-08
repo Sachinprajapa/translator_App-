@@ -1,7 +1,7 @@
 function TranslatorStart({ onStart }) {
   return (
     <div className="w-full h-full flex flex-col p-6 justify-center items-center text-gray-800">
-      <div className="w-full h-64 flex flex-col p-12 sm:p-12 rounded-t-full rounded-bl-full bg-gradient-to-r from-[#b6f492] to-[#338b93]">
+      <div className="w-full h-64 flex flex-col p-12 sm:p-12 rounded-t-full rounded-bl-full bg-gradient-to-r from-[#b6f492] to-[#370eca]">
         <span className="font-shojumaru text-5xl sm:text-6xl text-center">
           Hello
         </span>
@@ -17,7 +17,7 @@ function TranslatorStart({ onStart }) {
           Translator App
         </span>
         <button
-          className="font-righteous uppercase w-32 h-10 rounded-full bg-gradient-to-r from-[#b6f492] to-[#338b93]"
+          className="font-righteous uppercase w-32 h-10 rounded-full bg-gradient-to-r from-[#b6f492] to-[#413393]"
           onClick={onStart}
         >
           START
